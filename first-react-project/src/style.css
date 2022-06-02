@@ -1,14 +1,31 @@
 * {
+    background-color: #1A1B21;
     font-family: 'Inter', sans-serif;
-    text-align: center;
-    background-color: #23252C;
-    font-weight: 400;
 
 }
 
+.border-box {
+    width: 100%;
+    padding: 3rem;
+    background-color: #23252C;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 .profilePic {
-    width: 300px;
-    border-radius: 10px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.name,
+.ocupation,
+.website,
+.buttons {
+    text-align: center;
+
 }
 
 .name {
@@ -22,14 +39,14 @@
 .ocupation {
     margin-top: 0px;
     color: #F3BF99;
-    font-size: 11px
+    font-size: 11px;
+
 }
 
 .website {
     color: #F5F5F5;
     font-size: 10px;
     margin-top: 10px;
-
     margin-bottom: 15px;
 }
 
@@ -47,8 +64,6 @@
     font-size: 14px;
     padding: 6px 12px;
     border-radius: 5px;
-
-
 }
 
 .linkedin--button {
@@ -62,14 +77,28 @@
     border-radius: 5px;
 }
 
-.about-section {
-    color: #DCDCDC;
+.section {
+    color: #F5F5F5;
+    width: 300px;
+    padding: 0px 35px;
 }
 
-.about-title {}
+.section--title {
+    size: 16px;
+    font-weight: 700;
+}
 
-.about--info {
-    display: f;
+.section--paragraph {
+    size: 11px;
+    font-weight: 400;
+}
+
+.media {
+    display: flex;
     justify-content: center;
-    width: 300px;
+    align-items: center;
+    gap: 20px;
+    background-color: #161619;
+    border-radius: 0 0 10px 10px;
+    height: 50px;
 }
